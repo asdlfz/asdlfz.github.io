@@ -1,0 +1,41 @@
+html {
+  background-color: #6EADFF;
+  height: 100%; }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400; }
+
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start; }
+
+.hello, .about {
+  -webkit-box-flex: 1 100%;
+  -moz-box-flex: 1 100%;
+  -webkit-flex: 1 100%;
+  -ms-flex: 1 100%;
+  flex: 1 100%;
+  align-items: center; }
+
+.hello {
+  font-family: "brandon-grotesque";
+  font-size: 20vw;
+  color: #000;
+  text-align: center;
+  margin-bottom: -3%; }
+
+.about {
+  width: 65%;
+  font-family: "source-sans-pro";
+  font-weight: 300;
+  font-size: 1.4em;
+  color: #000;
+  text-align: left;
+  margin: auto; }
